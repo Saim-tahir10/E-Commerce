@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0000;
+}
+
+/* NAVBAR SECTION  */
+
+#logo{
+    width: 3em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.content-title{
+    margin-bottom: 16px;
+}
+
+#content-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem !important;
+    height: 3.5rem !important;
+    word-spacing: 1.1px !important;
+    margin: 63px 55px !important;
+    background-color: #feb413;
+    color: #f6f6f6;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+}
+
+
+#content-btn:hover{
+    background-color: #ffff;
+    color: #feb413;
+    border:2px solid;
+    border-color:#feb413
+}
+
+
+
+/*=====================================================================================================================
+
+                                            PROJECT PAGE STYLING
+
+==============================================================================================================*/
+
+
+
+
+.cart-btn{
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.search{
+    border-radius: 0px;
+}
+
+
+.product-title{
+    text-align: center;
+    margin: 30px;
+}
+.product-section{
+    height: auto;
+    margin: auto;
+    padding: 2% 4%;
+}
+
+.cards-btn{
+    width: 4rem;
+    height:3rem;
+    color: black;
+    background-color: #feb413;
+    border: none;
+    padding: 5px;
+    transition: 0.8 ease-in-out;
+}
+.cards-btn:hover{
+    border: 2px solid #feb413;
+    background-color: transparent;
+    color: #feb413;
+}
+
+.cartDiv{
+    background-color: #f6f6f6;
+    color: #0000;
+    width: 40%;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: -200;
+}
+
+.product-img{
+    height: 20rem;
+}
